@@ -1,7 +1,8 @@
 var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+var path = require('path');
 
 module.exports = {
-    entry: "./js/app_3.js",
+    entry: path.join(__dirname, 'js', 'app.js'),//"./js/app.js",
     output: {
         path: __dirname,
         filename: "bundle.js"
