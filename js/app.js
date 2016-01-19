@@ -1,4 +1,7 @@
 import d3 from 'd3';
 import _ from 'underscore';
 
-console.log('tds');
+//import scales from './scales';
+import adding from './adding';
+
+
