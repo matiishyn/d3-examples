@@ -21,5 +21,6 @@ module.exports = {
             port: 3000,
             server: {baseDir: ['./']}
         })
-    ]
+    ],
+    devtool: "source-map"
 };
